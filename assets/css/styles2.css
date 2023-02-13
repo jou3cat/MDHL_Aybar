@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+header{
+    background-color:rgb(250, 172, 5);
+    min-height: 10vh;
+}
+
+header h1{
+    color:blue;
+}
+    
+nav{
+    background-color:rgba(39, 135, 199, 0);
+    display: block;
+    text-align: right;
+}
+
+
+nav a{
+    display: inline-block;
+    color: white;
+    background-color: #1d54cc;
+    width: 8rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0rem;
+    position:relative;
+    z-index: 1;
+}
+
+
+a[href="about.html"]{
+    background-color: forestgreen;
+}
+
+#imagen1{    
+    width: 100%;
+    position: relative;
+    top: -20px;
+}
+
+header>div>h1{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: left;
+    position: relative;
+}
+
+#logo{
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    margin-top: 0%;
+}
+
+section{
+    display: inline-block
+}
+
+section>div>h2{
+    font-size: 2rem;
+    color:blue;
+}
+
+section>div>p{
+    font-size: 1rem;
+    color:darkorange;
+}
+
+#img2{
+    width: 100%;
+}
