@@ -56,27 +56,33 @@ header>div>h1{
 
 #logo{
     box-sizing: border-box;
-    width: 20%;
+    width: 90%;
     float: left;
     margin-top: 0%;
 }
 
-section{
-    display: inline-block
+main{
+    display: flex;
+    flex-direction: row
 }
 
-section>div>h2{
+main>div{
+    display: flex;
+    flex-direction: column;
+}
+
+main>div>h2{
     font-size: 2rem;
     color:blue;
 }
 
-section>div>p{
+main>div>p{
     font-size: 1rem;
     color:darkorange;
 }
 
 #img2{
-    width: 100%;
+    width: 90%;
 }
 
 
